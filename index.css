@@ -1,0 +1,31 @@
+* {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+select {
+  width: 400px;
+  height: 60px;
+  margin-bottom: 200px;
+  font-size: 30px;
+}
+h1 {
+  font-size: 60px;
+  color: white;
+  background-image: linear-gradient(to right, yellow, red);
+}
+p {
+  color: white;
+  font-size: 20px;
+  margin-right: 300px;
+}
